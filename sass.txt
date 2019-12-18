@@ -1,0 +1,302 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cistac {
+  clear: both;
+}
+
+.omotac {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+#zaglavlje {
+  width: 100%;
+  height: auto;
+  background-color: #414141;
+}
+
+#logo {
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    padding: 20px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+#zaglavljeDole {
+  width: 100%;
+  height: auto;
+  background-color: #5DB4D5;
+}
+
+#glavniMeni {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  ul {
+    display: inline-block;
+    text-align: initial;
+    li {
+      padding: 20px;
+      margin-left: 50px;
+      margin-right: 18px;
+      float: left;
+      a {
+        color: #fff;
+        font-size: 25px;
+        text-decoration: none;
+        &:hover {
+          color: #414141;
+        }
+      }
+    }
+  }
+}
+
+#dugme {
+  display: none;
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5DB4D5;
+  width: 100%;
+  &:hover {
+    color: #414141;
+  }
+}
+
+.dropbtn {
+  background-color: #5DB4D5;
+  border: none;
+}
+
+.show {
+  display: block;
+}
+
+#dugme a {
+  display: block;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  &:hover {
+    color: #414141;
+  }
+}
+
+#slajder {
+  background-image: url('../images/electrician.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 72vh;
+  background-attachment: fixed;
+}
+
+#oNama {
+  width: 100%;
+  height: auto;
+  padding: 60px;
+}
+
+#levo {
+  float: left;
+  width: 40%;
+}
+
+#desno {
+  float: left;
+  width: 60%;
+}
+
+.naslov {
+  h2 {
+    font-family: 'Muli', sans-serif;
+    color: #5DB4D5;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 23px;
+  }
+  a {
+    color: #5DB4D5;
+    text-decoration: none;
+  }
+}
+
+#lista {
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  ul {
+    list-style-type: circle;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+#opis {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+
+#usluge {
+  width: 100%;
+  height: auto;
+  background-color: #414141;
+  padding: 60px;
+  position: absolute;
+}
+
+.naslov1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 23px;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.proizvod {
+  width: 33%;
+  height: auto;
+  padding: 30px;
+  float: left;
+  position: relative;
+}
+
+.slika img {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.opisProizvoda p {
+  color: #fff;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size: 22px;
+}
+
+#kontakt {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 50px;
+  position: relative;
+  top: 800px;
+}
+
+#naslovK {
+  h2 {
+    font-family: 'Muli', sans-serif;
+    color: #5DB4D5;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 23px;
+    margin-bottom: 30px;
+  }
+  a {
+    color: #5DB4D5;
+    text-decoration: none;
+  }
+}
+
+#social {
+  float: left;
+  width: 50%;
+  p {
+    font-family: 'Muli', sans-serif;
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+  a {
+    color: #5DB4D5;
+    text-decoration: none;
+  }
+  ul {
+    margin-top: 20px;
+    li a {
+      font-size: 30px;
+      margin-right: 30px;
+    }
+  }
+}
+
+#forma {
+  width: 50%;
+  float: right;
+  input, textarea {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #414141;
+    background-color: #414141;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+  }
+  input[type="text"] {
+    width: 49.4%;
+    display: inline-block;
+    font-size: 20px;
+  }
+  ::placeholder {
+    color: #fff;
+  }
+  input[type="submit"] {
+    background-color: #5DB4D5;
+    color: #fff;
+    border: 1px solid #5DB4D5;
+  }
+}
+
+#kontakt input[type="submit"] {
+  background-color: #5DB4D5;
+  color: #fff;
+  border: 1px solid #5DB4D5;
+}
+
+#tbSend:hover {
+  background-color: #fff;
+}
+
+#futer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 800px;
+}
+
+#info {
+  width: 100%;
+  background-color: #414141;
+  color: #fff;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
